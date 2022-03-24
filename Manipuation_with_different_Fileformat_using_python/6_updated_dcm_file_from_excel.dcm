@@ -1,0 +1,2635 @@
+* encoding="ISO-8859-1"
+* DAMOS-Austauschdatei
+* Erstellt mit CRETA V6.0106.21223
+* Erstellt von: AUDIINL31854794/VB7H8AD
+* Erstellungsdatum: 19.01.2022 13:22:21
+*
+* Projekt: HCP1_C03_4_1_0_R_A_46_4_vECU_3_1_0_IP1
+* Datensatz: SIL__AU40x_EA888e5LK2EU6AP_DL382E-7A_ENT346998EN_KW464310IP1_S149_1\ADA_default_mod_C03.dcm
+
+KONSERVIERUNG_FORMAT 2.0
+
+FUNKTIONEN
+END
+
+TEXTSTRING C_ADA_DATASET_NAME
+   LANGNAME "C_ADA_DATASET_NAME"
+   TEXT   "ADA_C03__IP1"
+END
+
+FESTWERTEBLOCK C_ADA_DATASET_VERSION 4
+   LANGNAME "C_ADA_DATASET_VERSION"
+   EINHEIT_W ""
+   WERT   48   51   48   49
+END
+
+FESTWERT C_AdaPa_EKADriverOperationMask_u32
+   LANGNAME "C_AdaPa_EKADriverOperationMask_u32"
+   EINHEIT_W ""
+   WERT   4294967295.0
+END
+
+FESTWERT C_AdaPa_SensorDetectionDebounceTimeMFK_u8
+   LANGNAME "C_AdaPa_SensorDetectionDebounceTimeMFK_u8"
+   EINHEIT_W ""
+   WERT   10.0
+END
+
+FESTWERT C_AdaPa_TestMsgWaitTimeToSwitchLevel_u16
+   LANGNAME "C_AdaPa_TestMsgWaitTimeToSwitchLevel_u16"
+   EINHEIT_W ""
+   WERT   100.0
+END
+
+FESTWERT C_AdaPa_TestMsgWaitTimeToAbort_u16
+   LANGNAME "C_AdaPa_TestMsgWaitTimeToAbort_u16"
+   EINHEIT_W ""
+   WERT   100.0
+END
+
+FESTWERT C_AdaPa_BreakNotifDrivingTime_u16
+   LANGNAME "C_AdaPa_BreakNotifDrivingTime_u16"
+   EINHEIT_W ""
+   WERT   14400.0
+END
+
+FESTWERT C_AdaPa_BreakNotifDelayTime_u16
+   LANGNAME "C_AdaPa_BreakNotifDelayTime_u16"
+   EINHEIT_W ""
+   WERT   100.0
+END
+
+FESTWERT C_AdaPa_RestAreaResetTime_u16
+   LANGNAME "C_AdaPa_RestAreaResetTime_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_RestAreaNavBreakNotification_bln
+   LANGNAME "C_AdaPa_RestAreaNavBreakNotification_bln"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_RestAreaNavELAMsg3_bln
+   LANGNAME "C_AdaPa_RestAreaNavELAMsg3_bln"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_RestAreaNavELAMsg2_bln
+   LANGNAME "C_AdaPa_RestAreaNavELAMsg2_bln"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_RestAreaNavELAMsg1_bln
+   LANGNAME "C_AdaPa_RestAreaNavELAMsg1_bln"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOperatingMedia_u16
+   LANGNAME "C_AdaPa_HoldTimeOperatingMedia_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOperatingMedia_u16
+   LANGNAME "C_AdaPa_DeadTimeOperatingMedia_u16"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_PotentialOperatingMedia_i16
+   LANGNAME "C_AdaPa_PotentialOperatingMedia_i16"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFacWeightingHoldTimeAcoustic_f32
+   LANGNAME "C_AdaPa_EKAFacWeightingHoldTimeAcoustic_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_ELAActivityThresholdSpeedLower_f32
+   LANGNAME "C_AdaPa_ELAActivityThresholdSpeedLower_f32"
+   EINHEIT_W ""
+   WERT   70.0
+END
+
+FESTWERT C_AdaPa_DriverStatusDisplayWaitTimeToDeactiv_u16
+   LANGNAME "C_AdaPa_DriverStatusDisplayWaitTimeToDeactiv_u16"
+   EINHEIT_W ""
+   WERT   300.0
+END
+
+FESTWERT C_AdaPa_ELAActivityThresholdSpeedDeactiv_f32
+   LANGNAME "C_AdaPa_ELAActivityThresholdSpeedDeactiv_f32"
+   EINHEIT_W ""
+   WERT   65.0
+END
+
+FESTWERT C_AdaPa_EKAActivityThresholdSpeedDeactiv_f32
+   LANGNAME "C_AdaPa_EKAActivityThresholdSpeedDeactiv_f32"
+   EINHEIT_W ""
+   WERT   15.0
+END
+
+FESTWERT C_AdaPa_FktConfigDaylight_bln
+   LANGNAME "C_AdaPa_FktConfigDaylight_bln"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_FktConfigEKAActiveUserInteraction_bln
+   LANGNAME "C_AdaPa_FktConfigEKAActiveUserInteraction_bln"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_AdjDriverChange_bln
+   LANGNAME "C_AdaPa_AdjDriverChange_bln"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_EKAIndexMax_i16
+   LANGNAME "C_AdaPa_EKAIndexMax_i16"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_EKAIndexMin_i16
+   LANGNAME "C_AdaPa_EKAIndexMin_i16"
+   EINHEIT_W ""
+   WERT   -30.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThresholdSpeedInactive_f32
+   LANGNAME "C_AdaPa_EKAMsgThresholdSpeedInactive_f32"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThresholdSpeedInactive_f32
+   LANGNAME "C_AdaPa_EKAMsgThresholdSpeedInactive_f32"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_EKAMsgDurationNoWarning_u16
+   LANGNAME "C_AdaPa_EKAMsgDurationNoWarning_u16"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_EKAMsgDurationRepetition_u16
+   LANGNAME "C_AdaPa_EKAMsgDurationRepetition_u16"
+   EINHEIT_W ""
+   WERT   200.0
+END
+
+FESTWERT C_AdaPa_EKAMsgPauseLevelDecrease_u16
+   LANGNAME "C_AdaPa_EKAMsgPauseLevelDecrease_u16"
+   EINHEIT_W ""
+   WERT   100.0
+END
+
+FESTWERT C_AdaPa_EKAMsgPauseLevelIncrease_u16
+   LANGNAME "C_AdaPa_EKAMsgPauseLevelIncrease_u16"
+   EINHEIT_W ""
+   WERT   100.0
+END
+
+FESTWERT C_AdaPa_EKAMsgDelay_u16
+   LANGNAME "C_AdaPa_EKAMsgDelay_u16"
+   EINHEIT_W ""
+   WERT   50.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold3High_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold3High_f32"
+   EINHEIT_W ""
+   WERT   12.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold3Medium_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold3Medium_f32"
+   EINHEIT_W ""
+   WERT   15.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold3Low_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold3Low_f32"
+   EINHEIT_W ""
+   WERT   18.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold2High_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold2High_f32"
+   EINHEIT_W ""
+   WERT   9.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold2Medium_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold2Medium_f32"
+   EINHEIT_W ""
+   WERT   12.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold2Low_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold2Low_f32"
+   EINHEIT_W ""
+   WERT   15.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold1High_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold1High_f32"
+   EINHEIT_W ""
+   WERT   6.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold1Medium_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold1Medium_f32"
+   EINHEIT_W ""
+   WERT   9.0
+END
+
+FESTWERT C_AdaPa_EKAMsgThreshold1Low_f32
+   LANGNAME "C_AdaPa_EKAMsgThreshold1Low_f32"
+   EINHEIT_W ""
+   WERT   12.0
+END
+
+FESTWERT C_AdaPa_EKAGradientIncrease_f32
+   LANGNAME "C_AdaPa_EKAGradientIncrease_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_EKAGradientDecreaseAcoustic_f32
+   LANGNAME "C_AdaPa_EKAGradientDecreaseAcoustic_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_EKAGradientDecreaseAcoustic_f32
+   LANGNAME "C_AdaPa_EKAGradientDecreaseAcoustic_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_EKAFacWeightingHoldTimeAcoustic_f32
+   LANGNAME "C_AdaPa_EKAFacWeightingHoldTimeAcoustic_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFacWeightingAcoustic_f32
+   LANGNAME "C_AdaPa_EKAFacWeightingAcoustic_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFASAdaptFacWeightingHoldTimeInfotainment_f32
+   LANGNAME "C_AdaPa_EKAFASAdaptFacWeightingHoldTimeInfotainment_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFacWeightingHoldTimeInfotainment_f32
+   LANGNAME "C_AdaPa_EKAFacWeightingHoldTimeInfotainment_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFacWeightingInfotainment_f32
+   LANGNAME "C_AdaPa_EKAFacWeightingInfotainment_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFacWeightingUserInteraction_f32
+   LANGNAME "C_AdaPa_EKAFacWeightingUserInteraction_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_ELAActivityThresholdSpeedUpper_f32
+   LANGNAME "C_AdaPa_ELAActivityThresholdSpeedUpper_f32"
+   EINHEIT_W ""
+   WERT   200.0
+END
+
+FESTWERT C_AdaPa_EKAActivityThresholdSpeedUpper_f32
+   LANGNAME "C_AdaPa_EKAActivityThresholdSpeedUpper_f32"
+   EINHEIT_W ""
+   WERT   200.0
+END
+
+FESTWERT C_AdaPa_EKAActivityThresholdSpeedLower_f32
+   LANGNAME "C_AdaPa_EKAActivityThresholdSpeedLower_f32"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_SteeringMinimumEvalTime_u16
+   LANGNAME "C_AdaPa_SteeringMinimumEvalTime_u16"
+   EINHEIT_W ""
+   WERT   600.0
+END
+
+FESTWERT C_AdaPa_WeightedEventRateNormFactor_u16
+   LANGNAME "C_AdaPa_WeightedEventRateNormFactor_u16"
+   EINHEIT_W ""
+   WERT   500.0
+END
+
+FESTWERT C_AdaPa_HoldTimeAcousticVoiceControl_u16
+   LANGNAME "C_AdaPa_HoldTimeAcousticVoiceControl_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeAcousticPhone_u16
+   LANGNAME "C_AdaPa_HoldTimeAcousticPhone_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_PotentialAcousticVoiceControl_u16
+   LANGNAME "C_AdaPa_PotentialAcousticVoiceControl_u16"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_PotentialAcousticPhone_u16
+   LANGNAME "C_AdaPa_PotentialAcousticPhone_u16"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_ELAThresholdDrivingBehaviorFraction_u8
+   LANGNAME "C_AdaPa_ELAThresholdDrivingBehaviorFraction_u8"
+   EINHEIT_W ""
+   WERT   2.0
+END
+
+FESTWERT C_AdaPa_ELAThresholdDrivingBehaviorHistory_u8
+   LANGNAME "C_AdaPa_ELAThresholdDrivingBehaviorHistory_u8"
+   EINHEIT_W ""
+   WERT   2.0
+END
+
+FESTWERT C_AdaPa_ELAThresholdDrivingBehaviorFraction_u8
+   LANGNAME "C_AdaPa_ELAThresholdDrivingBehaviorFraction_u8"
+   EINHEIT_W ""
+   WERT   2.0
+END
+
+FESTWERT C_AdaPa_ELADrivingBehaviorPeriod_u16
+   LANGNAME "C_AdaPa_ELADrivingBehaviorPeriod_u16"
+   EINHEIT_W ""
+   WERT   1200.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold3High_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold3High_f32"
+   EINHEIT_W ""
+   WERT   8.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold3Medium_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold3Medium_f32"
+   EINHEIT_W ""
+   WERT   8.5
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold3Low_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold3Low_f32"
+   EINHEIT_W ""
+   WERT   9.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold2High_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold2High_f32"
+   EINHEIT_W ""
+   WERT   7.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold2Medium_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold2Medium_f32"
+   EINHEIT_W ""
+   WERT   7.5
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold2Low_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold2Low_f32"
+   EINHEIT_W ""
+   WERT   8.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold1High_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold1High_f32"
+   EINHEIT_W ""
+   WERT   6.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold1Medium_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold1Medium_f32"
+   EINHEIT_W ""
+   WERT   6.5
+END
+
+FESTWERT C_AdaPa_ELAMsgThreshold1Low_f32
+   LANGNAME "C_AdaPa_ELAMsgThreshold1Low_f32"
+   EINHEIT_W ""
+   WERT   7.0
+END
+
+FESTWERT C_AdaPa_ELAMsgPause_u16
+   LANGNAME "C_AdaPa_ELAMsgPause_u16"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_ELAMsgDelay_u16
+   LANGNAME "C_AdaPa_ELAMsgDelay_u16"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThresholdSpeedInactive_f32
+   LANGNAME "C_AdaPa_ELAMsgThresholdSpeedInactive_f32"
+   EINHEIT_W ""
+   WERT   65.0
+END
+
+FESTWERT C_AdaPa_ELAMsgThresholdSpeedInactive_f32
+   LANGNAME "C_AdaPa_ELAMsgThresholdSpeedInactive_f32"
+   EINHEIT_W ""
+   WERT   70.0
+END
+
+FESTWERT C_AdaPa_ELAClassifierOffsetAwake_f32
+   LANGNAME "C_AdaPa_ELAClassifierOffsetAwake_f32"
+   EINHEIT_W ""
+   WERT   -0.5
+END
+
+FESTWERT C_AdaPa_ELAClassifierOffsetTired_f32
+   LANGNAME "C_AdaPa_ELAClassifierOffsetTired_f32"
+   EINHEIT_W ""
+   WERT   0.5
+END
+
+FESTWERT C_AdaPa_FacELADriverClassification_f32
+   LANGNAME "C_AdaPa_FacELADriverClassification_f32"
+   EINHEIT_W ""
+   WERT   10.0
+END
+
+FESTWERT C_AdaPa_ELAToTAIScalingMax_f32
+   LANGNAME "C_AdaPa_ELAToTAIScalingMax_f32"
+   EINHEIT_W ""
+   WERT   6.5
+END
+
+FESTWERT C_AdaPa_ELAToTAIScalingMin_f32
+   LANGNAME "C_AdaPa_ELAToTAIScalingMin_f32"
+   EINHEIT_W ""
+   WERT   4.0
+END
+
+FESTWERT C_AdaPa_SignalValidDuration_f32
+   LANGNAME "C_AdaPa_SignalValidDuration_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_FacCountersteeringMoment_f32
+   LANGNAME "C_AdaPa_FacCountersteeringMoment_f32"
+   EINHEIT_W ""
+   WERT   2.0
+END
+
+FESTWERT C_AdaPa_ThresholdSpeedELASteeringDetection_f32
+   LANGNAME "C_AdaPa_ThresholdSpeedELASteeringDetection_f32"
+   EINHEIT_W ""
+   WERT   60.0
+END
+
+FESTWERT C_AdaPa_PotentialInfotainmentLevel3_u16
+   LANGNAME "C_AdaPa_PotentialInfotainmentLevel3_u16"
+   EINHEIT_W ""
+   WERT   3.0
+END
+
+FESTWERT C_AdaPa_PotentialInfotainmentLevel2_u16
+   LANGNAME "C_AdaPa_PotentialInfotainmentLevel2_u16"
+   EINHEIT_W ""
+   WERT   2.0
+END
+
+FESTWERT C_AdaPa_PotentialInfotainmentLevel1_u16
+   LANGNAME "C_AdaPa_PotentialInfotainmentLevel1_u16"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFASAdaptFacWeightingHoldTimeInfotainment_f32
+   LANGNAME "C_AdaPa_EKAFASAdaptFacWeightingHoldTimeInfotainment_f32"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_DeadTimeInfotainment_u16
+   LANGNAME "C_AdaPa_DeadTimeInfotainment_u16"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_PassengerPresenceEval_bln
+   LANGNAME "C_AdaPa_PassengerPresenceEval_bln"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacTimeOnTaskELADC_f32
+   LANGNAME "C_AdaPa_FacTimeOnTaskELADC_f32"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_FacDaylightELA_f32
+   LANGNAME "C_AdaPa_FacDaylightELA_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_SignalInitDuration_f32
+   LANGNAME "C_AdaPa_SignalInitDuration_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_SignalOutOfRangeDuration_f32
+   LANGNAME "C_AdaPa_SignalOutOfRangeDuration_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_SignalNeverReceivedDuration_f32
+   LANGNAME "C_AdaPa_SignalNeverReceivedDuration_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_ELASmootingParameterEMA_f32
+   LANGNAME "C_AdaPa_ELASmootingParameterEMA_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_TLCPreDebounceTicks_u16
+   LANGNAME "C_AdaPa_TLCPreDebounceTicks_u16"
+   EINHEIT_W ""
+   WERT   1200.0
+END
+
+FESTWERT C_AdaPa_MaxWeightedRateSteeringEvent_f32
+   LANGNAME "C_AdaPa_MaxWeightedRateSteeringEvent_f32"
+   EINHEIT_W ""
+   WERT   0.8
+END
+
+FESTWERT C_AdaPa_FacMonotonyELA_f32
+   LANGNAME "C_AdaPa_FacMonotonyELA_f32"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_FacDriverActivityELA_f32
+   LANGNAME "C_AdaPa_FacDriverActivityELA_f32"
+   EINHEIT_W ""
+   WERT   15.0
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode23_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode23_f32"
+   EINHEIT_W ""
+   WERT   -0.06
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode22_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode22_f32"
+   EINHEIT_W ""
+   WERT   0.04
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode21_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode21_f32"
+   EINHEIT_W ""
+   WERT   0.13
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode20_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode20_f32"
+   EINHEIT_W ""
+   WERT   0.15
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode19_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode19_f32"
+   EINHEIT_W ""
+   WERT   0.15
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode18_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode18_f32"
+   EINHEIT_W ""
+   WERT   0.13
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode17_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode17_f32"
+   EINHEIT_W ""
+   WERT   0.08
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode16_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode16_f32"
+   EINHEIT_W ""
+   WERT   0.03
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode15_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode15_f32"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode14_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode14_f32"
+   EINHEIT_W ""
+   WERT   0.01
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode13_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode13_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode12_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode12_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode11_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode11_f32"
+   EINHEIT_W ""
+   WERT   0.15
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode10_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode10_f32"
+   EINHEIT_W ""
+   WERT   0.21
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode09_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode09_f32"
+   EINHEIT_W ""
+   WERT   0.25
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode08_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode08_f32"
+   EINHEIT_W ""
+   WERT   0.27
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode07_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode07_f32"
+   EINHEIT_W ""
+   WERT   0.2
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode06_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode06_f32"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode05_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode05_f32"
+   EINHEIT_W ""
+   WERT   -0.19
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode04_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode04_f32"
+   EINHEIT_W ""
+   WERT   -0.37
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode03_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode03_f32"
+   EINHEIT_W ""
+   WERT   -0.5
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode02_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode02_f32"
+   EINHEIT_W ""
+   WERT   -0.48
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode01_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode01_f32"
+   EINHEIT_W ""
+   WERT   -0.35
+END
+
+FESTWERT C_AdaPa_CircadianRhythmNode00_f32
+   LANGNAME "C_AdaPa_CircadianRhythmNode00_f32"
+   EINHEIT_W ""
+   WERT   -0.2
+END
+
+FESTWERT C_AdaPa_DayligthMaxDecrease_f32
+   LANGNAME "C_AdaPa_DayligthMaxDecrease_f32"
+   EINHEIT_W ""
+   WERT   400.0
+END
+
+FESTWERT C_AdaPa_ELAMaxValueToT_u16
+   LANGNAME "C_AdaPa_ELAMaxValueToT_u16"
+   EINHEIT_W ""
+   WERT   18000.0
+END
+
+FESTWERT C_AdaPa_FacUSSDMLevel_f32
+   LANGNAME "C_AdaPa_FacUSSDMLevel_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_ThresholdUSSDMQual_u8
+   LANGNAME "C_AdaPa_ThresholdUSSDMQual_u8"
+   EINHEIT_W ""
+   WERT   70.0
+END
+
+FESTWERT C_AdaPa_ELAAttentionIndicatorScalingMin_f32
+   LANGNAME "C_AdaPa_ELAAttentionIndicatorScalingMin_f32"
+   EINHEIT_W ""
+   WERT   0.0
+END
+
+FESTWERT C_AdaPa_ELAAttentionIndicatorScalingMax_f32
+   LANGNAME "C_AdaPa_ELAAttentionIndicatorScalingMax_f32"
+   EINHEIT_W ""
+   WERT   9.9
+END
+
+FESTWERT C_AdaPa_ELADrivingContextScalingMin_f32
+   LANGNAME "C_AdaPa_ELADrivingContextScalingMin_f32"
+   EINHEIT_W ""
+   WERT   0.8
+END
+
+FESTWERT C_AdaPa_ELADrivingContextScalingMax_f32
+   LANGNAME "C_AdaPa_ELADrivingContextScalingMax_f32"
+   EINHEIT_W ""
+   WERT   1.2
+END
+
+FESTWERT C_AdaPa_FacCircadianRhythmELA_f32
+   LANGNAME "C_AdaPa_FacCircadianRhythmELA_f32"
+   EINHEIT_W ""
+   WERT   10.0
+END
+
+FESTWERT C_AdaPa_EKAThresholdBrakePedalPathHeavyBraking_f32
+   LANGNAME "C_AdaPa_EKAThresholdBrakePedalPathHeavyBraking_f32"
+   EINHEIT_W ""
+   WERT   50.0
+END
+
+FESTWERT C_AdaPa_EKAThresholdAccPedalGradientStrongAcc_f32
+   LANGNAME "C_AdaPa_EKAThresholdAccPedalGradientStrongAcc_f32"
+   EINHEIT_W ""
+   WERT   250.0
+END
+
+FESTWERT C_AdaPa_EKAThresholdBrakePedalPathLightBraking_f32
+   LANGNAME "C_AdaPa_EKAThresholdBrakePedalPathLightBraking_f32"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_PotentialLightAcceleration_i16
+   LANGNAME "C_AdaPa_PotentialLightAcceleration_i16"
+   EINHEIT_W ""
+   WERT   -1.0
+END
+
+FESTWERT C_AdaPa_ELAMaxDrivingContextBrightnes_f32
+   LANGNAME "C_AdaPa_ELAMaxDrivingContextBrightnes_f32"
+   EINHEIT_W ""
+   WERT   1000.0
+END
+
+FESTWERT C_AdaPa_ELAMaxDrivingContextCircadian_f32
+   LANGNAME "C_AdaPa_ELAMaxDrivingContextCircadian_f32"
+   EINHEIT_W ""
+   WERT   2.0
+END
+
+FESTWERT C_AdaPa_ELAMaxDrivingContextToT_u16
+   LANGNAME "C_AdaPa_ELAMaxDrivingContextToT_u16"
+   EINHEIT_W ""
+   WERT   18000.0
+END
+
+FESTWERT C_AdaPa_FacTimeOnTaskELAAI_f32
+   LANGNAME "C_AdaPa_FacTimeOnTaskELAAI_f32"
+   EINHEIT_W ""
+   WERT   0.4
+END
+
+FESTWERT C_AdaPa_HoldTimeFactorActiveUserInteraction_f32
+   LANGNAME "C_AdaPa_HoldTimeFactorActiveUserInteraction_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_EKAFactorMMIUserInteraction_u8
+   LANGNAME "C_AdaPa_EKAFactorMMIUserInteraction_u8"
+   EINHEIT_W ""
+   WERT   4.0
+END
+
+FESTWERT C_AdaPa_EKAFactorActiveUserInteraction_u8
+   LANGNAME "C_AdaPa_EKAFactorActiveUserInteraction_u8"
+   EINHEIT_W ""
+   WERT   4.0
+END
+
+FESTWERT C_AdaPa_EKAFASAdaptGradientDistraction_f32
+   LANGNAME "C_AdaPa_EKAFASAdaptGradientDistraction_f32"
+   EINHEIT_W ""
+   WERT   0.01
+END
+
+FESTWERT C_AdaPa_EKAFASAdaptGradientAttention_f32
+   LANGNAME "C_AdaPa_EKAFASAdaptGradientAttention_f32"
+   EINHEIT_W ""
+   WERT   0.03
+END
+
+FESTWERT C_AdaPa_EKAFASAdaptMin_i16
+   LANGNAME "C_AdaPa_EKAFASAdaptMin_i16"
+   EINHEIT_W ""
+   WERT   -12.0
+END
+
+FESTWERT C_AdaPa_EKAFASAdaptMax_i16
+   LANGNAME "C_AdaPa_EKAFASAdaptMax_i16"
+   EINHEIT_W ""
+   WERT   12.0
+END
+
+FESTWERT C_AdaPa_PotentialLightBraking_i16
+   LANGNAME "C_AdaPa_PotentialLightBraking_i16"
+   EINHEIT_W ""
+   WERT   -1.0
+END
+
+FESTWERT C_AdaPa_EKAThresholdAccPedalGradientLightAcc_f32
+   LANGNAME "C_AdaPa_EKAThresholdAccPedalGradientLightAcc_f32"
+   EINHEIT_W ""
+   WERT   100.0
+END
+
+FESTWERT C_AdaPa_EKAThresholdAccPedalGradientLightAcc_f32
+   LANGNAME "C_AdaPa_EKAThresholdAccPedalGradientLightAcc_f32"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_HoldTimeHeavyBraking_u16
+   LANGNAME "C_AdaPa_HoldTimeHeavyBraking_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeLightBraking_u16
+   LANGNAME "C_AdaPa_HoldTimeLightBraking_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeLightAcceleration_u16
+   LANGNAME "C_AdaPa_HoldTimeLightAcceleration_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOperatingSeatAdjustment_u16
+   LANGNAME "C_AdaPa_HoldTimeOperatingSeatAdjustment_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOperatingWiperLever_u16
+   LANGNAME "C_AdaPa_HoldTimeOperatingWiperLever_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOperatingFASButtons_u16
+   LANGNAME "C_AdaPa_HoldTimeOperatingFASButtons_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeStrongSteeringMovements_u16
+   LANGNAME "C_AdaPa_HoldTimeStrongSteeringMovements_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOperatingExteriorMirror_u16
+   LANGNAME "C_AdaPa_HoldTimeOperatingExteriorMirror_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOperatingHighBeam_u16
+   LANGNAME "C_AdaPa_HoldTimeOperatingHighBeam_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeFlashing_u16
+   LANGNAME "C_AdaPa_HoldTimeFlashing_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeAdjustmentVolume_u16
+   LANGNAME "C_AdaPa_HoldTimeAdjustmentVolume_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOperationMenu_u16
+   LANGNAME "C_AdaPa_HoldTimeOperationMenu_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeOverrideLongitudinalControl_u16
+   LANGNAME "C_AdaPa_HoldTimeOverrideLongitudinalControl_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_HoldTimeStrongAcceleration_u16
+   LANGNAME "C_AdaPa_HoldTimeStrongAcceleration_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_DeadTimeHeavyBraking_u16
+   LANGNAME "C_AdaPa_DeadTimeHeavyBraking_u16"
+   EINHEIT_W ""
+   WERT   40.0
+END
+
+FESTWERT C_AdaPa_DeadTimeLightBraking_u16
+   LANGNAME "C_AdaPa_DeadTimeLightBraking_u16"
+   EINHEIT_W ""
+   WERT   60.0
+END
+
+FESTWERT C_AdaPa_DeadTimeLightAcceleration_u16
+   LANGNAME "C_AdaPa_DeadTimeLightAcceleration_u16"
+   EINHEIT_W ""
+   WERT   60.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOperatingSeatAdjustment_u16
+   LANGNAME "C_AdaPa_DeadTimeOperatingSeatAdjustment_u16"
+   EINHEIT_W ""
+   WERT   50.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOperatingWiperLever_u16
+   LANGNAME "C_AdaPa_DeadTimeOperatingWiperLever_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOperatingFASButtons_u16
+   LANGNAME "C_AdaPa_DeadTimeOperatingFASButtons_u16"
+   EINHEIT_W ""
+   WERT   40.0
+END
+
+FESTWERT C_AdaPa_DeadTimeStrongSteeringMovements_u16
+   LANGNAME "C_AdaPa_DeadTimeStrongSteeringMovements_u16"
+   EINHEIT_W ""
+   WERT   50.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOperatingExteriorMirror_u16
+   LANGNAME "C_AdaPa_DeadTimeOperatingExteriorMirror_u16"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOperatingHighBeam_u16
+   LANGNAME "C_AdaPa_DeadTimeOperatingHighBeam_u16"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_DeadTimeFlashing_u16
+   LANGNAME "C_AdaPa_DeadTimeFlashing_u16"
+   EINHEIT_W ""
+   WERT   20.0
+END
+
+FESTWERT C_AdaPa_DeadTimeAdjustmentVolume_u16
+   LANGNAME "C_AdaPa_DeadTimeAdjustmentVolume_u16"
+   EINHEIT_W ""
+   WERT   40.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOperationMenu_u16
+   LANGNAME "C_AdaPa_DeadTimeOperationMenu_u16"
+   EINHEIT_W ""
+   WERT   40.0
+END
+
+FESTWERT C_AdaPa_DeadTimeOverrideLongitudinalControl_u16
+   LANGNAME "C_AdaPa_DeadTimeOverrideLongitudinalControl_u16"
+   EINHEIT_W ""
+   WERT   50.0
+END
+
+FESTWERT C_AdaPa_DeadTimeStrongAcceleration_u16
+   LANGNAME "C_AdaPa_DeadTimeStrongAcceleration_u16"
+   EINHEIT_W ""
+   WERT   40.0
+END
+
+FESTWERT C_AdaPa_EnvironmentBrightnessEMADecay_f32
+   LANGNAME "C_AdaPa_EnvironmentBrightnessEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.5
+END
+
+FESTWERT C_AdaPa_DaylightBrightnessDefault_f32
+   LANGNAME "C_AdaPa_DaylightBrightnessDefault_f32"
+   EINHEIT_W ""
+   WERT   20000.0
+END
+
+FESTWERT C_AdaPa_DayligthMaxIncrease_f32
+   LANGNAME "C_AdaPa_DayligthMaxIncrease_f32"
+   EINHEIT_W ""
+   WERT   40000.0
+END
+
+FESTWERT C_AdaPa_PotentialOperatingSeatAdjustment_i16
+   LANGNAME "C_AdaPa_PotentialOperatingSeatAdjustment_i16"
+   EINHEIT_W ""
+   WERT   3.0
+END
+
+FESTWERT C_AdaPa_PotentialOperatingWiperLever_i16
+   LANGNAME "C_AdaPa_PotentialOperatingWiperLever_i16"
+   EINHEIT_W ""
+   WERT   -1.0
+END
+
+FESTWERT C_AdaPa_PotentialOperatingFASButtons_i16
+   LANGNAME "C_AdaPa_PotentialOperatingFASButtons_i16"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_PotentialStrongSteeringMovements_i16
+   LANGNAME "C_AdaPa_PotentialStrongSteeringMovements_i16"
+   EINHEIT_W ""
+   WERT   -3.0
+END
+
+FESTWERT C_AdaPa_EKAThresholdSteeringAngleSpeed_f32
+   LANGNAME "C_AdaPa_EKAThresholdSteeringAngleSpeed_f32"
+   EINHEIT_W ""
+   WERT   300.0
+END
+
+FESTWERT C_AdaPa_EKAThresholdSteeringMoment_f32
+   LANGNAME "C_AdaPa_EKAThresholdSteeringMoment_f32"
+   EINHEIT_W ""
+   WERT   4.0
+END
+
+FESTWERT C_AdaPa_ThresholdSharpRightTurn_f32
+   LANGNAME "C_AdaPa_ThresholdSharpRightTurn_f32"
+   EINHEIT_W ""
+   WERT   70.0
+END
+
+FESTWERT C_AdaPa_ThresholdSharpLeftTurn_f32
+   LANGNAME "C_AdaPa_ThresholdSharpLeftTurn_f32"
+   EINHEIT_W ""
+   WERT   -70.0
+END
+
+FESTWERT C_AdaPa_DTLResetTicks_u16
+   LANGNAME "C_AdaPa_DTLResetTicks_u16"
+   EINHEIT_W ""
+   WERT   2000.0
+END
+
+FESTWERT C_AdaPa_DTLRecDebounceTicks_u16
+   LANGNAME "C_AdaPa_DTLRecDebounceTicks_u16"
+   EINHEIT_W ""
+   WERT   1000.0
+END
+
+FESTWERT C_AdaPa_DTLPreDebounceTicks_u16
+   LANGNAME "C_AdaPa_DTLPreDebounceTicks_u16"
+   EINHEIT_W ""
+   WERT   1200.0
+END
+
+FESTWERT C_AdaPa_DTLMinSpeed_f32
+   LANGNAME "C_AdaPa_DTLMinSpeed_f32"
+   EINHEIT_W ""
+   WERT   90.0
+END
+
+FESTWERT C_AdaPa_TLCMinSpeed_f32
+   LANGNAME "C_AdaPa_TLCMinSpeed_f32"
+   EINHEIT_W ""
+   WERT   90.0
+END
+
+FESTWERT C_AdaPa_DiagRoutineMsgWaitingTime_u16
+   LANGNAME "C_AdaPa_DiagRoutineMsgWaitingTime_u16"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_DiagRoutineMsgLevelRuntime_u16
+   LANGNAME "C_AdaPa_DiagRoutineMsgLevelRuntime_u16"
+   EINHEIT_W ""
+   WERT   30.0
+END
+
+FESTWERT C_AdaPa_SignalErrorDuration_f32
+   LANGNAME "C_AdaPa_SignalErrorDuration_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_SignalTimeoutDuration_f32
+   LANGNAME "C_AdaPa_SignalTimeoutDuration_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_ELALaneDistanceModifactionParameter_f32
+   LANGNAME "C_AdaPa_ELALaneDistanceModifactionParameter_f32"
+   EINHEIT_W ""
+   WERT   0.15
+END
+
+FESTWERT C_AdaPa_ELAThresholdLaneTimeCrossing_f32
+   LANGNAME "C_AdaPa_ELAThresholdLaneTimeCrossing_f32"
+   EINHEIT_W ""
+   WERT   0.5
+END
+
+FESTWERT C_AdaPa_PotentialOperatingExteriorMirror_i16
+   LANGNAME "C_AdaPa_PotentialOperatingExteriorMirror_i16"
+   EINHEIT_W ""
+   WERT   3.0
+END
+
+FESTWERT C_AdaPa_PotentialOperatingHighBeam_i16
+   LANGNAME "C_AdaPa_PotentialOperatingHighBeam_i16"
+   EINHEIT_W ""
+   WERT   -2.0
+END
+
+FESTWERT C_AdaPa_PotentialFlashing_i16
+   LANGNAME "C_AdaPa_PotentialFlashing_i16"
+   EINHEIT_W ""
+   WERT   -1.0
+END
+
+FESTWERT C_AdaPa_PotentialHeavyBraking_i16
+   LANGNAME "C_AdaPa_PotentialHeavyBraking_i16"
+   EINHEIT_W ""
+   WERT   -3.0
+END
+
+FESTWERT C_AdaPa_PotentialAdjustmentVolume_i16
+   LANGNAME "C_AdaPa_PotentialAdjustmentVolume_i16"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_PotentialOperationMenu_i16
+   LANGNAME "C_AdaPa_PotentialOperationMenu_i16"
+   EINHEIT_W ""
+   WERT   2.0
+END
+
+FESTWERT C_AdaPa_PotentialOverrideLongitudinalControl_i16
+   LANGNAME "C_AdaPa_PotentialOverrideLongitudinalControl_i16"
+   EINHEIT_W ""
+   WERT   -2.0
+END
+
+FESTWERT C_AdaPa_PotentialStrongAcceleration_i16
+   LANGNAME "C_AdaPa_PotentialStrongAcceleration_i16"
+   EINHEIT_W ""
+   WERT   -3.0
+END
+
+FESTWERT C_AdaPa_FacWeightingTlcILAIndex_f32
+   LANGNAME "C_AdaPa_FacWeightingTlcILAIndex_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_ThresholdTlcCntIncludeInELA_u32
+   LANGNAME "C_AdaPa_ThresholdTlcCntIncludeInELA_u32"
+   EINHEIT_W ""
+   WERT   900.0
+END
+
+FESTWERT C_AdaPa_TimeWindowTlcCntInTicks_u16
+   LANGNAME "C_AdaPa_TimeWindowTlcCntInTicks_u16"
+   EINHEIT_W ""
+   WERT   3600.0
+END
+
+FESTWERT C_AdaPa_FacWeightingDtlILAIndex_f32
+   LANGNAME "C_AdaPa_FacWeightingDtlILAIndex_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_TimeWindowDtlInTicks_u16
+   LANGNAME "C_AdaPa_TimeWindowDtlInTicks_u16"
+   EINHEIT_W ""
+   WERT   200.0
+END
+
+FESTWERT C_AdaPa_MaxDtl_f32
+   LANGNAME "C_AdaPa_MaxDtl_f32"
+   EINHEIT_W ""
+   WERT   1.5
+END
+
+FESTWERT C_AdaPa_FacWeightingSteeringILAIndex_f32
+   LANGNAME "C_AdaPa_FacWeightingSteeringILAIndex_f32"
+   EINHEIT_W ""
+   WERT   0.4
+END
+
+FESTWERT C_AdaPa_YawRateEMATime_f32
+   LANGNAME "C_AdaPa_YawRateEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_YawRateEMADecay_f32
+   LANGNAME "C_AdaPa_YawRateEMADecay_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_VehicleSpeedEMATime_f32
+   LANGNAME "C_AdaPa_VehicleSpeedEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_VehicleSpeedEMADecay_f32
+   LANGNAME "C_AdaPa_VehicleSpeedEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.002
+END
+
+FESTWERT C_AdaPa_TimVehPowStatOffInSec_u16
+   LANGNAME "C_AdaPa_TimVehPowStatOffInSec_u16"
+   EINHEIT_W ""
+   WERT   120.0
+END
+
+FESTWERT C_AdaPa_TimeSteeringInactivityPeriodQualMs_u32
+   LANGNAME "C_AdaPa_TimeSteeringInactivityPeriodQualMs_u32"
+   EINHEIT_W ""
+   WERT   1000.0
+END
+
+FESTWERT C_AdaPa_TimeAttentionCheckMs_u32
+   LANGNAME "C_AdaPa_TimeAttentionCheckMs_u32"
+   EINHEIT_W ""
+   WERT   300.0
+END
+
+FESTWERT C_AdaPa_ThresholdSteeringInactivityPeriod_f32
+   LANGNAME "C_AdaPa_ThresholdSteeringInactivityPeriod_f32"
+   EINHEIT_W ""
+   WERT   0.3
+END
+
+FESTWERT C_AdaPa_ThresholdDriverChangeVehicleSpeed_f32
+   LANGNAME "C_AdaPa_ThresholdDriverChangeVehicleSpeed_f32"
+   EINHEIT_W ""
+   WERT   25.0
+END
+
+FESTWERT C_AdaPa_SteeringMomentEMATime_f32
+   LANGNAME "C_AdaPa_SteeringMomentEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_SteeringMomentEMADecay_f32
+   LANGNAME "C_AdaPa_SteeringMomentEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.005
+END
+
+FESTWERT C_AdaPa_SteeringAngleSpeedEMATime_f32
+   LANGNAME "C_AdaPa_SteeringAngleSpeedEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_SteeringAngleSpeedEMADecay_f32
+   LANGNAME "C_AdaPa_SteeringAngleSpeedEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.005
+END
+
+FESTWERT C_AdaPa_SteeringAngleEMATime_f32
+   LANGNAME "C_AdaPa_SteeringAngleEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_SteeringAngleEMADecay_f32
+   LANGNAME "C_AdaPa_SteeringAngleEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.005
+END
+
+FESTWERT C_AdaPa_MonoDriverInitTime_u16
+   LANGNAME "C_AdaPa_MonoDriverInitTime_u16"
+   EINHEIT_W ""
+   WERT   300.0
+END
+
+FESTWERT C_AdaPa_MaxELAIndex_f32
+   LANGNAME "C_AdaPa_MaxELAIndex_f32"
+   EINHEIT_W ""
+   WERT   9.9
+END
+
+FESTWERT C_AdaPa_FacYawRateMAD_f32
+   LANGNAME "C_AdaPa_FacYawRateMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacVehicleSpeedMAD_f32
+   LANGNAME "C_AdaPa_FacVehicleSpeedMAD_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_FacSteeringMomentMAD_f32
+   LANGNAME "C_AdaPa_FacSteeringMomentMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacSteeringAngleSpeedMAD_f32
+   LANGNAME "C_AdaPa_FacSteeringAngleSpeedMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacSteeringAngleMAD_f32
+   LANGNAME "C_AdaPa_FacSteeringAngleMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacDriverBrakingMAD_f32
+   LANGNAME "C_AdaPa_FacDriverBrakingMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacAccPedalMAD_f32
+   LANGNAME "C_AdaPa_FacAccPedalMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacAccPedalGradientMAD_f32
+   LANGNAME "C_AdaPa_FacAccPedalGradientMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacAccLongitudinalMAD_f32
+   LANGNAME "C_AdaPa_FacAccLongitudinalMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_FacAccLateralMAD_f32
+   LANGNAME "C_AdaPa_FacAccLateralMAD_f32"
+   EINHEIT_W ""
+   WERT   1.0
+END
+
+FESTWERT C_AdaPa_DriverBrakingEMATime_f32
+   LANGNAME "C_AdaPa_DriverBrakingEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_DriverBrakingEMADecay_f32
+   LANGNAME "C_AdaPa_DriverBrakingEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.5
+END
+
+FESTWERT C_AdaPa_DriverActivityInitTimeInSec_u16
+   LANGNAME "C_AdaPa_DriverActivityInitTimeInSec_u16"
+   EINHEIT_W ""
+   WERT   300.0
+END
+
+FESTWERT C_AdaPa_DecayELAIndex_f32
+   LANGNAME "C_AdaPa_DecayELAIndex_f32"
+   EINHEIT_W ""
+   WERT   0.0005
+END
+
+FESTWERT C_AdaPa_ActDrThrSpeedInKmh_f32
+   LANGNAME "C_AdaPa_ActDrThrSpeedInKmh_f32"
+   EINHEIT_W ""
+   WERT   5.0
+END
+
+FESTWERT C_AdaPa_ActDrBreakTimInSec_u16
+   LANGNAME "C_AdaPa_ActDrBreakTimInSec_u16"
+   EINHEIT_W ""
+   WERT   1200.0
+END
+
+FESTWERT C_AdaPa_AccPedalGradientEMATime_f32
+   LANGNAME "C_AdaPa_AccPedalGradientEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_AccPedalGradientEMADecay_f32
+   LANGNAME "C_AdaPa_AccPedalGradientEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_AccPedalEMATime_f32
+   LANGNAME "C_AdaPa_AccPedalEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_AccPedalEMADecay_f32
+   LANGNAME "C_AdaPa_AccPedalEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_AccLongitudinalEMATime_f32
+   LANGNAME "C_AdaPa_AccLongitudinalEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_AccLongitudinalEMADecay_f32
+   LANGNAME "C_AdaPa_AccLongitudinalEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT C_AdaPa_AccLateralEMATime_f32
+   LANGNAME "C_AdaPa_AccLateralEMATime_f32"
+   EINHEIT_W ""
+   WERT   0.1
+END
+
+FESTWERT C_AdaPa_AccLateralEMADecay_f32
+   LANGNAME "C_AdaPa_AccLateralEMADecay_f32"
+   EINHEIT_W ""
+   WERT   0.05
+END
+
+FESTWERT AdaAlgo_GetADTF_Name
+   LANGNAME "AdaAlgo_GetADTF_Name"
+   EINHEIT_W ""
+   WERT   Value
+END
+
+FESTWERT AdaAlgo_GetELAMsgSetting
+   LANGNAME "AdaAlgo_GetELAMsgSetting"
+   EINHEIT_W ""
+   WERT   3
+END
+
+FESTWERT AdaAlgo_GetFktConfigMsgKL15On
+   LANGNAME "AdaAlgo_GetFktConfigMsgKL15On"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetFktConfigMsgEKADisplay
+   LANGNAME "AdaAlgo_GetFktConfigMsgEKADisplay"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetResetFactorySettings
+   LANGNAME "AdaAlgo_GetResetFactorySettings"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigMsgOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigMsgOnDriverChange"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT C_AdaPa_FktConfigEKAActiveUserInteraction_bln
+   LANGNAME "C_AdaPa_FktConfigEKAActiveUserInteraction_bln"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetFktConfigELA
+   LANGNAME "AdaAlgo_GetFktConfigELA"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAMsgSetting
+   LANGNAME "AdaAlgo_GetEKAMsgSetting"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAMsgFactorySettings
+   LANGNAME "AdaAlgo_GetEKAMsgFactorySettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetAdjSensorDetectionFBK
+   LANGNAME "AdaAlgo_GetAdjSensorDetectionFBK"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAEventMsgMobileUsage
+   LANGNAME "AdaAlgo_GetFktConfigEKAEventMsgMobileUsage"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAEventMsgSmoking
+   LANGNAME "AdaAlgo_GetFktConfigEKAEventMsgSmoking"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAEventMsgHeadPosition
+   LANGNAME "AdaAlgo_GetFktConfigEKAEventMsgHeadPosition"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAEventMsgAvertedEyes
+   LANGNAME "AdaAlgo_GetFktConfigEKAEventMsgAvertedEyes"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAEventMsgClosedEyes
+   LANGNAME "AdaAlgo_GetFktConfigEKAEventMsgClosedEyes"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAEventMsgMicrosleepUpcoming
+   LANGNAME "AdaAlgo_GetFktConfigELAEventMsgMicrosleepUpcoming"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAEventMsgMicrosleep
+   LANGNAME "AdaAlgo_GetFktConfigELAEventMsgMicrosleep"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAEventMsgClosedEyes
+   LANGNAME "AdaAlgo_GetFktConfigELAEventMsgClosedEyes"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAEventMsgYawn
+   LANGNAME "AdaAlgo_GetFktConfigELAEventMsgYawn"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetThresholdSysTimeSettingChanged
+   LANGNAME "AdaAlgo_GetThresholdSysTimeSettingChanged"
+   EINHEIT_W ""
+   WERT   2000
+END
+
+FESTWERT AdaAlgo_GetDebounceTimeDMSignalBlindness
+   LANGNAME "AdaAlgo_GetDebounceTimeDMSignalBlindness"
+   EINHEIT_W ""
+   WERT   6000
+END
+
+FESTWERT AdaAlgo_GetDebounceTimeDMSignalUnknown
+   LANGNAME "AdaAlgo_GetDebounceTimeDMSignalUnknown"
+   EINHEIT_W ""
+   WERT   6000
+END
+
+FESTWERT AdaAlgo_GetDebounceTimeDMSignalNotAvailable
+   LANGNAME "AdaAlgo_GetDebounceTimeDMSignalNotAvailable"
+   EINHEIT_W ""
+   WERT   3000
+END
+
+FESTWERT AdaAlgo_GetEKAFactorDriverMonitoring
+   LANGNAME "AdaAlgo_GetEKAFactorDriverMonitoring"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetDTLLaneWidthScaling
+   LANGNAME "AdaAlgo_GetDTLLaneWidthScaling"
+   EINHEIT_W ""
+   WERT   0.4
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdSmokingLevel3
+   LANGNAME "AdaAlgo_GetEKAThresholdSmokingLevel3"
+   EINHEIT_W ""
+   WERT   150
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdSmokingLevel2
+   LANGNAME "AdaAlgo_GetEKAThresholdSmokingLevel2"
+   EINHEIT_W ""
+   WERT   100
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdSmokingLevel1
+   LANGNAME "AdaAlgo_GetEKAThresholdSmokingLevel1"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdSmokingLevel0
+   LANGNAME "AdaAlgo_GetEKAThresholdSmokingLevel0"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdMobileUsageLevel3
+   LANGNAME "AdaAlgo_GetEKAThresholdMobileUsageLevel3"
+   EINHEIT_W ""
+   WERT   150
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdMobileUsageLevel2
+   LANGNAME "AdaAlgo_GetEKAThresholdMobileUsageLevel2"
+   EINHEIT_W ""
+   WERT   100
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdMobileUsageLevel1
+   LANGNAME "AdaAlgo_GetEKAThresholdMobileUsageLevel1"
+   EINHEIT_W ""
+   WERT   20
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdMobileUsageLevel0
+   LANGNAME "AdaAlgo_GetEKAThresholdMobileUsageLevel0"
+   EINHEIT_W ""
+   WERT   20
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdHeadPositionLevel3
+   LANGNAME "AdaAlgo_GetEKAThresholdHeadPositionLevel3"
+   EINHEIT_W ""
+   WERT   90
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdHeadPositionLevel2
+   LANGNAME "AdaAlgo_GetEKAThresholdHeadPositionLevel2"
+   EINHEIT_W ""
+   WERT   60
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdHeadPositionLevel1
+   LANGNAME "AdaAlgo_GetEKAThresholdHeadPositionLevel1"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdHeadPositionLevel0
+   LANGNAME "AdaAlgo_GetEKAThresholdHeadPositionLevel0"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdClosedEyesLevel3
+   LANGNAME "AdaAlgo_GetEKAThresholdClosedEyesLevel3"
+   EINHEIT_W ""
+   WERT   90
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdClosedEyesLevel2
+   LANGNAME "AdaAlgo_GetEKAThresholdClosedEyesLevel2"
+   EINHEIT_W ""
+   WERT   60
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdClosedEyesLevel1
+   LANGNAME "AdaAlgo_GetEKAThresholdClosedEyesLevel1"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdClosedEyesLevel0
+   LANGNAME "AdaAlgo_GetEKAThresholdClosedEyesLevel0"
+   EINHEIT_W ""
+   WERT   10
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdAvertedEyesSumLevel3
+   LANGNAME "AdaAlgo_GetEKAThresholdAvertedEyesSumLevel3"
+   EINHEIT_W ""
+   WERT   200
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdAvertedEyesSumLevel2
+   LANGNAME "AdaAlgo_GetEKAThresholdAvertedEyesSumLevel2"
+   EINHEIT_W ""
+   WERT   150
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdAvertedEyesSumLevel1
+   LANGNAME "AdaAlgo_GetEKAThresholdAvertedEyesSumLevel1"
+   EINHEIT_W ""
+   WERT   100
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdAvertedEyesLevel3
+   LANGNAME "AdaAlgo_GetEKAThresholdAvertedEyesLevel3"
+   EINHEIT_W ""
+   WERT   90
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdAvertedEyesLevel2
+   LANGNAME "AdaAlgo_GetEKAThresholdAvertedEyesLevel2"
+   EINHEIT_W ""
+   WERT   60
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdAvertedEyesLevel1
+   LANGNAME "AdaAlgo_GetEKAThresholdAvertedEyesLevel1"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdAvertedEyesLevel0
+   LANGNAME "AdaAlgo_GetEKAThresholdAvertedEyesLevel0"
+   EINHEIT_W ""
+   WERT   10
+END
+
+FESTWERT AdaAlgo_GetEKAPotentialClosedEyes
+   LANGNAME "AdaAlgo_GetEKAPotentialClosedEyes"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAPotentialAvertedEyes
+   LANGNAME "AdaAlgo_GetEKAPotentialAvertedEyes"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAHoldTimeClosedEyes
+   LANGNAME "AdaAlgo_GetEKAHoldTimeClosedEyes"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKAHoldTimeAvertedEyes
+   LANGNAME "AdaAlgo_GetEKAHoldTimeAvertedEyes"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKADeadTimeSmoking
+   LANGNAME "AdaAlgo_GetEKADeadTimeSmoking"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKADeadTimeMobileUsage
+   LANGNAME "AdaAlgo_GetEKADeadTimeMobileUsage"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKADeadTimeHeadPosition
+   LANGNAME "AdaAlgo_GetEKADeadTimeHeadPosition"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKADeadTimeClosedEyes
+   LANGNAME "AdaAlgo_GetEKADeadTimeClosedEyes"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKADeadTimeAvertedEyesSum
+   LANGNAME "AdaAlgo_GetEKADeadTimeAvertedEyesSum"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKADeadTimeAvertedEyes
+   LANGNAME "AdaAlgo_GetEKADeadTimeAvertedEyes"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdQualitySmokingEMADeactiv
+   LANGNAME "AdaAlgo_GetEKAThresholdQualitySmokingEMADeactiv"
+   EINHEIT_W ""
+   WERT   60
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdQualitySmokingDeactiv
+   LANGNAME "AdaAlgo_GetEKAThresholdQualitySmokingDeactiv"
+   EINHEIT_W ""
+   WERT   40
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdQualitySmokingActiv
+   LANGNAME "AdaAlgo_GetEKAThresholdQualitySmokingActiv"
+   EINHEIT_W ""
+   WERT   80
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdQualityMobileUsageEMADeactiv
+   LANGNAME "AdaAlgo_GetEKAThresholdQualityMobileUsageEMADeactiv"
+   EINHEIT_W ""
+   WERT   60
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdQualityMobileUsageDeactiv
+   LANGNAME "AdaAlgo_GetEKAThresholdQualityMobileUsageDeactiv"
+   EINHEIT_W ""
+   WERT   40
+END
+
+FESTWERT AdaAlgo_GetEKAThresholdQualityMobileUsageActiv
+   LANGNAME "AdaAlgo_GetEKAThresholdQualityMobileUsageActiv"
+   EINHEIT_W ""
+   WERT   80
+END
+
+FESTWERT AdaAlgo_GetEKAQualitySmokingEMADecay
+   LANGNAME "AdaAlgo_GetEKAQualitySmokingEMADecay"
+   EINHEIT_W ""
+   WERT   0.5
+END
+
+FESTWERT AdaAlgo_GetEKAQualityMobileUsageEMADecay
+   LANGNAME "AdaAlgo_GetEKAQualityMobileUsageEMADecay"
+   EINHEIT_W ""
+   WERT   0.5
+END
+
+FESTWERT AdaAlgo_GetELADelayTimeEventMsg
+   LANGNAME "AdaAlgo_GetELADelayTimeEventMsg"
+   EINHEIT_W ""
+   WERT   10
+END
+
+FESTWERT AdaAlgo_GetELADelayTimeClosedEyes
+   LANGNAME "AdaAlgo_GetELADelayTimeClosedEyes"
+   EINHEIT_W ""
+   WERT   10
+END
+
+FESTWERT AdaAlgo_GetELADelayTimeMicrosleep
+   LANGNAME "AdaAlgo_GetELADelayTimeMicrosleep"
+   EINHEIT_W ""
+   WERT   10
+END
+
+FESTWERT AdaAlgo_GetELADeadTimeClosedEyes
+   LANGNAME "AdaAlgo_GetELADeadTimeClosedEyes"
+   EINHEIT_W ""
+   WERT   5
+END
+
+FESTWERT AdaAlgo_GetELADeadTimeMicrosleepUpcoming
+   LANGNAME "AdaAlgo_GetELADeadTimeMicrosleepUpcoming"
+   EINHEIT_W ""
+   WERT   5
+END
+
+FESTWERT AdaAlgo_GetELADeadTimeMicrosleep
+   LANGNAME "AdaAlgo_GetELADeadTimeMicrosleep"
+   EINHEIT_W ""
+   WERT   5
+END
+
+FESTWERT AdaAlgo_GetELADeadTimeYawn
+   LANGNAME "AdaAlgo_GetELADeadTimeYawn"
+   EINHEIT_W ""
+   WERT   5
+END
+
+FESTWERT AdaAlgo_GetELAQualityYawnEMADecay
+   LANGNAME "AdaAlgo_GetELAQualityYawnEMADecay"
+   EINHEIT_W ""
+   WERT   0.5
+END
+
+FESTWERT AdaAlgo_GetELAThresholdQualityMicrosleepUpcomingDeactiv
+   LANGNAME "AdaAlgo_GetELAThresholdQualityMicrosleepUpcomingDeactiv"
+   EINHEIT_W ""
+   WERT   40
+END
+
+FESTWERT AdaAlgo_GetELAThresholdQualityMicrosleepUpcomingActiv
+   LANGNAME "AdaAlgo_GetELAThresholdQualityMicrosleepUpcomingActiv"
+   EINHEIT_W ""
+   WERT   80
+END
+
+FESTWERT AdaAlgo_GetELAThresholdQualityMicrosleepDeactiv
+   LANGNAME "AdaAlgo_GetELAThresholdQualityMicrosleepDeactiv"
+   EINHEIT_W ""
+   WERT   40
+END
+
+FESTWERT AdaAlgo_GetELAThresholdQualityMicrosleepActiv
+   LANGNAME "AdaAlgo_GetELAThresholdQualityMicrosleepActiv"
+   EINHEIT_W ""
+   WERT   80
+END
+
+FESTWERT AdaAlgo_GetELAThresholdQualityYawnDeactiv
+   LANGNAME "AdaAlgo_GetELAThresholdQualityYawnDeactiv"
+   EINHEIT_W ""
+   WERT   40
+END
+
+FESTWERT AdaAlgo_GetELAThresholdQualityYawnEMADeactiv
+   LANGNAME "AdaAlgo_GetELAThresholdQualityYawnEMADeactiv"
+   EINHEIT_W ""
+   WERT   60
+END
+
+FESTWERT AdaAlgo_GetELAThresholdQualityYawnActiv
+   LANGNAME "AdaAlgo_GetELAThresholdQualityYawnActiv"
+   EINHEIT_W ""
+   WERT   80
+END
+
+FESTWERT AdaAlgo_GetELAEventMsgThresholdSpeedDeactiv
+   LANGNAME "AdaAlgo_GetELAEventMsgThresholdSpeedDeactiv"
+   EINHEIT_W ""
+   WERT   65
+END
+
+FESTWERT AdaAlgo_GetELAEventMsgThresholdSpeedActiv
+   LANGNAME "AdaAlgo_GetELAEventMsgThresholdSpeedActiv"
+   EINHEIT_W ""
+   WERT   70
+END
+
+FESTWERT AdaAlgo_GetELAThresholdClosedEyesLevel
+   LANGNAME "AdaAlgo_GetELAThresholdClosedEyesLevel"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetELAThresholdYawnLevel
+   LANGNAME "AdaAlgo_GetELAThresholdYawnLevel"
+   EINHEIT_W ""
+   WERT   30
+END
+
+FESTWERT AdaAlgo_GetEKAMsgDurationSuppression
+   LANGNAME "AdaAlgo_GetEKAMsgDurationSuppression"
+   EINHEIT_W ""
+   WERT   100
+END
+
+FESTWERT AdaAlgo_GetHoldTimeKickdown
+   LANGNAME "AdaAlgo_GetHoldTimeKickdown"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDeadTimeKickdown
+   LANGNAME "AdaAlgo_GetDeadTimeKickdown"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDTLIntensityDecrease
+   LANGNAME "AdaAlgo_GetDTLIntensityDecrease"
+   EINHEIT_W ""
+   WERT   0.02
+END
+
+FESTWERT AdaAlgo_GetPotentialKickdown
+   LANGNAME "AdaAlgo_GetPotentialKickdown"
+   EINHEIT_W ""
+   WERT   -3
+END
+
+FESTWERT AdaAlgo_GetStatusAdj
+   LANGNAME "AdaAlgo_GetStatusAdj"
+   EINHEIT_W ""
+   WERT   2
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineSensorDetectionReset
+   LANGNAME "AdaAlgo_GetDiagRoutineSensorDetectionReset"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineELAStatusDisplayCascade
+   LANGNAME "AdaAlgo_GetDiagRoutineELAStatusDisplayCascade"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineEKAStatusDisplayCascade
+   LANGNAME "AdaAlgo_GetDiagRoutineEKAStatusDisplayCascade"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetSensorDetectionSettingMFK
+   LANGNAME "AdaAlgo_GetSensorDetectionSettingMFK"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetRestAreaNavSetting
+   LANGNAME "AdaAlgo_GetRestAreaNavSetting"
+   EINHEIT_W ""
+   WERT   2
+END
+
+FESTWERT AdaAlgo_GetRestAreaNavHMISettings
+   LANGNAME "AdaAlgo_GetRestAreaNavHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetAdaFunctionReset
+   LANGNAME "AdaAlgo_GetAdaFunctionReset"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKASensitivitySetting
+   LANGNAME "AdaAlgo_GetEKASensitivitySetting"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetELASensitivitySetting
+   LANGNAME "AdaAlgo_GetELASensitivitySetting"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetELAAcousticNotifSetting
+   LANGNAME "AdaAlgo_GetELAAcousticNotifSetting"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAAcousticNotifSetting
+   LANGNAME "AdaAlgo_GetEKAAcousticNotifSetting"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetAdjSensorDetectionMFK
+   LANGNAME "AdaAlgo_GetAdjSensorDetectionMFK"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigTestMsg
+   LANGNAME "AdaAlgo_GetFktConfigTestMsg"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigBreakNotif
+   LANGNAME "AdaAlgo_GetFktConfigBreakNotif"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAErrorMsgNotActive
+   LANGNAME "AdaAlgo_GetFktConfigEKAErrorMsgNotActive"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAErrorMsgNotAvailable
+   LANGNAME "AdaAlgo_GetFktConfigEKAErrorMsgNotAvailable"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAErrorMsgLimitedAvailable
+   LANGNAME "AdaAlgo_GetFktConfigEKAErrorMsgLimitedAvailable"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAErrorMsgNotActive
+   LANGNAME "AdaAlgo_GetFktConfigELAErrorMsgNotActive"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAErrorMsgNotAvailable
+   LANGNAME "AdaAlgo_GetFktConfigELAErrorMsgNotAvailable"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAErrorMsgLimitedAvailable
+   LANGNAME "AdaAlgo_GetFktConfigELAErrorMsgLimitedAvailable"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjRestAreaNavOnOff
+   LANGNAME "AdaAlgo_GetAdjRestAreaNavOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetRestAreaNavFactorySettings
+   LANGNAME "AdaAlgo_GetRestAreaNavFactorySettings"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigRestAreaNavOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigRestAreaNavOnDriverChange"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigRestAreaNavKL15On
+   LANGNAME "AdaAlgo_GetFktConfigRestAreaNavKL15On"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigRestAreaNavDisplay
+   LANGNAME "AdaAlgo_GetFktConfigRestAreaNavDisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDSStatus
+   LANGNAME "AdaAlgo_GetDSStatus"
+   EINHEIT_W ""
+   WERT   2
+END
+
+FESTWERT AdaAlgo_GetELAFASAdaptSetting
+   LANGNAME "AdaAlgo_GetELAFASAdaptSetting"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetELAFASAdaptHMISettings
+   LANGNAME "AdaAlgo_GetELAFASAdaptHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAFASAdaptSetting
+   LANGNAME "AdaAlgo_GetEKAFASAdaptSetting"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAFASAdaptHMISettings
+   LANGNAME "AdaAlgo_GetEKAFASAdaptHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKASensitivityHMISettings
+   LANGNAME "AdaAlgo_GetEKASensitivityHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetELASensitivityHMISettings
+   LANGNAME "AdaAlgo_GetELASensitivityHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetELAAcousticNotifHMISettings
+   LANGNAME "AdaAlgo_GetELAAcousticNotifHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAAcousticNotifHMISettings
+   LANGNAME "AdaAlgo_GetEKAAcousticNotifHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetELAMsgHMISettings
+   LANGNAME "AdaAlgo_GetELAMsgHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKAMsgHMISettings
+   LANGNAME "AdaAlgo_GetEKAMsgHMISettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetAdjELAFASAdaptOnOff
+   LANGNAME "AdaAlgo_GetAdjELAFASAdaptOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetELAFASAdaptFactorySettings
+   LANGNAME "AdaAlgo_GetELAFASAdaptFactorySettings"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAFASAdaptOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigELAFASAdaptOnDriverChange"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAFASAdaptKL15On
+   LANGNAME "AdaAlgo_GetFktConfigELAFASAdaptKL15On"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAFASAdaptDisplay
+   LANGNAME "AdaAlgo_GetFktConfigELAFASAdaptDisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjEKAFASAdaptOnOff
+   LANGNAME "AdaAlgo_GetAdjEKAFASAdaptOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKAFASAdaptFactorySettings
+   LANGNAME "AdaAlgo_GetEKAFASAdaptFactorySettings"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAFASAdaptOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigEKAFASAdaptOnDriverChange"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAFASAdaptKL15On
+   LANGNAME "AdaAlgo_GetFktConfigEKAFASAdaptKL15On"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAFASAdaptDisplay
+   LANGNAME "AdaAlgo_GetFktConfigEKAFASAdaptDisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjEKASensitivity
+   LANGNAME "AdaAlgo_GetAdjEKASensitivity"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetEKASensitivityFactorySettings
+   LANGNAME "AdaAlgo_GetEKASensitivityFactorySettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKASensitivityOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigEKASensitivityOnDriverChange"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigSensitivityEKAKL15On
+   LANGNAME "AdaAlgo_GetFktConfigSensitivityEKAKL15On"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigSensitivityEKADisplay
+   LANGNAME "AdaAlgo_GetFktConfigSensitivityEKADisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjELASensitivity
+   LANGNAME "AdaAlgo_GetAdjELASensitivity"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetELASensitivityFactorySettings
+   LANGNAME "AdaAlgo_GetELASensitivityFactorySettings"
+   EINHEIT_W ""
+   WERT   1
+END
+
+FESTWERT AdaAlgo_GetFktConfigELASensitivityOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigELASensitivityOnDriverChange"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigSensitivityELAKL15On
+   LANGNAME "AdaAlgo_GetFktConfigSensitivityELAKL15On"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigSensitivityELADisplay
+   LANGNAME "AdaAlgo_GetFktConfigSensitivityELADisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetELAAcousticNotifFactorySettings
+   LANGNAME "AdaAlgo_GetELAAcousticNotifFactorySettings"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjELAAcousticNotifOnOff
+   LANGNAME "AdaAlgo_GetAdjELAAcousticNotifOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAAcousticNotifOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigELAAcousticNotifOnDriverChange"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAAcousticNotifKL15On
+   LANGNAME "AdaAlgo_GetFktConfigELAAcousticNotifKL15On"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigELAAcousticNotifDisplay
+   LANGNAME "AdaAlgo_GetFktConfigELAAcousticNotifDisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetEKAAcousticNotifFactorySettings
+   LANGNAME "AdaAlgo_GetEKAAcousticNotifFactorySettings"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjEKAAcousticNotifOnOff
+   LANGNAME "AdaAlgo_GetAdjEKAAcousticNotifOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAAcousticNotifOnDriverChange
+   LANGNAME "AdaAlgo_GetFktConfigEKAAcousticNotifOnDriverChange"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAAcousticNotifKL15On
+   LANGNAME "AdaAlgo_GetFktConfigEKAAcousticNotifKL15On"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigEKAAcousticNotifDisplay
+   LANGNAME "AdaAlgo_GetFktConfigEKAAcousticNotifDisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetELAMsgFactorySettings
+   LANGNAME "AdaAlgo_GetELAMsgFactorySettings"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigMsgELADisplay
+   LANGNAME "AdaAlgo_GetFktConfigMsgELADisplay"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigMsgKL15OnELA
+   LANGNAME "AdaAlgo_GetFktConfigMsgKL15OnELA"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigMsgOnDriverChangeELA
+   LANGNAME "AdaAlgo_GetFktConfigMsgOnDriverChangeELA"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigFASAdaptEKAMsgOnOff
+   LANGNAME "AdaAlgo_GetFktConfigFASAdaptEKAMsgOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetFktConfigFASAdaptELAMsgOnOff
+   LANGNAME "AdaAlgo_GetFktConfigFASAdaptELAMsgOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjELAMsgOnOff
+   LANGNAME "AdaAlgo_GetAdjELAMsgOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetAdjEKAMsgOnOff
+   LANGNAME "AdaAlgo_GetAdjEKAMsgOnOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineBreakNotifMsg
+   LANGNAME "AdaAlgo_GetDiagRoutineBreakNotifMsg"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineELAStatusDisplayError
+   LANGNAME "AdaAlgo_GetDiagRoutineELAStatusDisplayError"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineELAStatusDisplayOff
+   LANGNAME "AdaAlgo_GetDiagRoutineELAStatusDisplayOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineELAMsg3
+   LANGNAME "AdaAlgo_GetDiagRoutineELAMsg3"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineELAMsg2
+   LANGNAME "AdaAlgo_GetDiagRoutineELAMsg2"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineELAMsg1
+   LANGNAME "AdaAlgo_GetDiagRoutineELAMsg1"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineELACascadeMsg
+   LANGNAME "AdaAlgo_GetDiagRoutineELACascadeMsg"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineEKAStatusDisplayError
+   LANGNAME "AdaAlgo_GetDiagRoutineEKAStatusDisplayError"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineEKAStatusDisplayOff
+   LANGNAME "AdaAlgo_GetDiagRoutineEKAStatusDisplayOff"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineEKAMsg3
+   LANGNAME "AdaAlgo_GetDiagRoutineEKAMsg3"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineEKAMsg2
+   LANGNAME "AdaAlgo_GetDiagRoutineEKAMsg2"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineEKAMsg1
+   LANGNAME "AdaAlgo_GetDiagRoutineEKAMsg1"
+   EINHEIT_W ""
+   WERT   0
+END
+
+FESTWERT AdaAlgo_GetDiagRoutineEKACascadeMsg
+   LANGNAME "AdaAlgo_GetDiagRoutineEKACascadeMsg"
+   EINHEIT_W ""
+   WERT   0
+END
+

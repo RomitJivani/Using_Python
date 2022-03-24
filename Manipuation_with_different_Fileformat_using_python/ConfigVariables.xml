@@ -1,0 +1,1307 @@
+<?xml version="1.0"?>
+<OnlineSimulationConfigs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConfigVariables>
+    <ConfigVariable name="AdaAlgo_GetELAMsgSetting" value="3">
+      <id>1143708</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigMsgKL15On" value="1">
+      <id>1143701</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigMsgEKADisplay" value="1">
+      <id>1143667</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetResetFactorySettings" value="0">
+      <id>1143628</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigMsgOnDriverChange" value="1">
+      <id>1143592</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKA" value="1">
+      <id>1143591</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELA" value="1">
+      <id>1143545</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgSetting" value="1">
+      <id>1143487</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgFactorySettings" value="1">
+      <id>1143258</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjSensorDetectionFBK" value="0">
+      <id>797943</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAEventMsgMobileUsage" value="0">
+      <id>797942</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAEventMsgSmoking" value="0">
+      <id>797941</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAEventMsgHeadPosition" value="0">
+      <id>797940</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAEventMsgAvertedEyes" value="0">
+      <id>797939</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAEventMsgClosedEyes" value="0">
+      <id>797938</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAEventMsgMicrosleepUpcoming" value="0">
+      <id>797937</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAEventMsgMicrosleep" value="0">
+      <id>797936</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAEventMsgClosedEyes" value="0">
+      <id>797935</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAEventMsgYawn" value="0">
+      <id>797934</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdSysTimeSettingChanged" value="2000">
+      <id>797930</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDebounceTimeDMSignalBlindness" value="6000">
+      <id>797929</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDebounceTimeDMSignalUnknown" value="6000">
+      <id>797928</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDebounceTimeDMSignalNotAvailable" value="3000">
+      <id>797927</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFactorDriverMonitoring" value="1">
+      <id>797926</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDTLLaneWidthScaling" value="0.4">
+      <id>797925</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdSmokingLevel3" value="150">
+      <id>797924</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdSmokingLevel2" value="100">
+      <id>797923</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdSmokingLevel1" value="30">
+      <id>797922</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdSmokingLevel0" value="30">
+      <id>797921</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdMobileUsageLevel3" value="150">
+      <id>797920</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdMobileUsageLevel2" value="100">
+      <id>797919</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdMobileUsageLevel1" value="20">
+      <id>797918</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdMobileUsageLevel0" value="20">
+      <id>797917</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdHeadPositionLevel3" value="90">
+      <id>797916</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdHeadPositionLevel2" value="60">
+      <id>797915</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdHeadPositionLevel1" value="30">
+      <id>797914</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdHeadPositionLevel0" value="30">
+      <id>797913</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdClosedEyesLevel3" value="90">
+      <id>797912</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdClosedEyesLevel2" value="60">
+      <id>797911</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdClosedEyesLevel1" value="30">
+      <id>797910</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdClosedEyesLevel0" value="10">
+      <id>797909</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAvertedEyesSumLevel3" value="200">
+      <id>797908</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAvertedEyesSumLevel2" value="150">
+      <id>797907</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAvertedEyesSumLevel1" value="100">
+      <id>797906</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAvertedEyesLevel3" value="90">
+      <id>797905</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAvertedEyesLevel2" value="60">
+      <id>797904</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAvertedEyesLevel1" value="30">
+      <id>797903</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAvertedEyesLevel0" value="10">
+      <id>797902</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAPotentialClosedEyes" value="1">
+      <id>797901</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAPotentialAvertedEyes" value="1">
+      <id>797900</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAHoldTimeClosedEyes" value="0">
+      <id>797899</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAHoldTimeAvertedEyes" value="0">
+      <id>797898</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKADeadTimeSmoking" value="0">
+      <id>797897</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKADeadTimeMobileUsage" value="0">
+      <id>797896</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKADeadTimeHeadPosition" value="0">
+      <id>797895</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKADeadTimeClosedEyes" value="0">
+      <id>797894</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKADeadTimeAvertedEyesSum" value="0">
+      <id>797893</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKADeadTimeAvertedEyes" value="0">
+      <id>797892</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdQualitySmokingEMADeactiv" value="60">
+      <id>797891</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdQualitySmokingDeactiv" value="40">
+      <id>797890</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdQualitySmokingActiv" value="80">
+      <id>797889</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdQualityMobileUsageEMADeactiv" value="60">
+      <id>797888</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdQualityMobileUsageDeactiv" value="40">
+      <id>797887</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdQualityMobileUsageActiv" value="80">
+      <id>797886</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAQualitySmokingEMADecay" value="0.5">
+      <id>797885</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAQualityMobileUsageEMADecay" value="0.5">
+      <id>797884</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADelayTimeEventMsg" value="10">
+      <id>797883</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADelayTimeClosedEyes" value="10">
+      <id>797882</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADelayTimeMicrosleep" value="10">
+      <id>797881</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADeadTimeClosedEyes" value="5">
+      <id>797880</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADeadTimeMicrosleepUpcoming" value="5">
+      <id>797879</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADeadTimeMicrosleep" value="5">
+      <id>797878</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADeadTimeYawn" value="5">
+      <id>797877</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAQualityYawnEMADecay" value="0.5">
+      <id>797876</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdQualityMicrosleepUpcomingDeactiv" value="40">
+      <id>797875</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdQualityMicrosleepUpcomingActiv" value="80">
+      <id>797874</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdQualityMicrosleepDeactiv" value="40">
+      <id>797873</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdQualityMicrosleepActiv" value="80">
+      <id>797872</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdQualityYawnDeactiv" value="40">
+      <id>797871</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdQualityYawnEMADeactiv" value="60">
+      <id>797870</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdQualityYawnActiv" value="80">
+      <id>797869</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAEventMsgThresholdSpeedDeactiv" value="65">
+      <id>797868</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAEventMsgThresholdSpeedActiv" value="70">
+      <id>797867</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdClosedEyesLevel" value="30">
+      <id>797858</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdYawnLevel" value="30">
+      <id>797857</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgDurationSuppression" value="100">
+      <id>797854</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKADriverOperationMask" value="4294967295">
+      <id>797853</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeKickdown" value="0">
+      <id>797850</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeKickdown" value="0">
+      <id>797849</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDTLIntensityDecrease" value="0.02">
+      <id>797848</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialKickdown" value="-3">
+      <id>797847</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetStatusAdj" value="2">
+      <id>573082</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineSensorDetectionReset" value="0">
+      <id>573067</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineELAStatusDisplayCascade" value="0">
+      <id>573066</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineEKAStatusDisplayCascade" value="0">
+      <id>573065</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSensorDetectionSettingMFK" value="0">
+      <id>573064</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaNavSetting" value="2">
+      <id>573063</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaNavHMISettings" value="1">
+      <id>573062</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdaFunctionReset" value="0">
+      <id>573061</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKASensitivitySetting" value="1">
+      <id>573060</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELASensitivitySetting" value="1">
+      <id>573058</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAAcousticNotifSetting" value="1">
+      <id>573054</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAAcousticNotifSetting" value="1">
+      <id>573050</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjSensorDetectionMFK" value="0">
+      <id>570788</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSensorDetectionDebounceTimeMFK" value="10">
+      <id>570787</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTestMsgWaitTimeToSwitchLevel" value="100">
+      <id>570786</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTestMsgWaitTimeToAbort" value="100">
+      <id>570785</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigTestMsg" value="0">
+      <id>570784</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetBreakNotifDrivingTime" value="14400">
+      <id>570783</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetBreakNotifDelayTime" value="100">
+      <id>570782</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigBreakNotif" value="0">
+      <id>570781</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAErrorMsgNotActive" value="0">
+      <id>570780</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAErrorMsgNotAvailable" value="0">
+      <id>570779</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAErrorMsgLimitedAvailable" value="0">
+      <id>570778</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAErrorMsgNotActive" value="0">
+      <id>570777</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAErrorMsgNotAvailable" value="0">
+      <id>570776</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAErrorMsgLimitedAvailable" value="0">
+      <id>570775</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaResetTime" value="20">
+      <id>570774</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaNavBreakNotification" value="0">
+      <id>570770</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaNavELAMsg3" value="0">
+      <id>570768</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaNavELAMsg2" value="0">
+      <id>570767</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaNavELAMsg1" value="0">
+      <id>570766</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjRestAreaNavOnOff" value="0">
+      <id>570761</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetRestAreaNavFactorySettings" value="0">
+      <id>570760</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigRestAreaNavOnDriverChange" value="0">
+      <id>570759</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigRestAreaNavKL15On" value="0">
+      <id>570758</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigRestAreaNavDisplay" value="0">
+      <id>570757</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOperatingMedia" value="20">
+      <id>570756</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOperatingMedia" value="30">
+      <id>570755</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOperatingMedia" value="1">
+      <id>570754</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFacWeightingHoldTime" value="1">
+      <id>570753</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAActivityThresholdSpeedLower" value="70">
+      <id>570750</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDriverStatusDisplayWaitTimeToDeactiv" value="300">
+      <id>570749</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAActivityThresholdSpeedDeactiv" value="65">
+      <id>570748</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAActivityThresholdSpeedDeactiv" value="15">
+      <id>570747</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigDaylight" value="0">
+      <id>570746</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAActiveUserInteraction" value="1">
+      <id>570745</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjDriverChange" value="0">
+      <id>570744</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDSStatus" value="2">
+      <id>371420</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAFASAdaptSetting" value="1">
+      <id>371419</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAFASAdaptHMISettings" value="1">
+      <id>371418</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptSetting" value="1">
+      <id>371417</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptHMISettings" value="1">
+      <id>371416</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKASensitivityHMISettings" value="1">
+      <id>371414</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELASensitivityHMISettings" value="1">
+      <id>371412</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAAcousticNotifHMISettings" value="1">
+      <id>371409</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAAcousticNotifHMISettings" value="1">
+      <id>371403</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgHMISettings" value="1">
+      <id>371402</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgHMISettings" value="1">
+      <id>371401</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAIndexMax" value="30">
+      <id>371399</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAIndexMin" value="-30">
+      <id>371398</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThresholdSpeedInactive" value="0">
+      <id>371397</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThresholdSpeed" value="0">
+      <id>371396</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgDurationNoWarning" value="5">
+      <id>371395</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgDurationRepetition" value="200">
+      <id>371394</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgPauseLevelDecrease" value="100">
+      <id>371393</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgPauseLevelIncrease" value="100">
+      <id>371392</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgDelay" value="50">
+      <id>371391</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold3High" value="12">
+      <id>371390</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold3Medium" value="15">
+      <id>371389</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold3Low" value="18">
+      <id>371388</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold2High" value="9">
+      <id>371387</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold2Medium" value="12">
+      <id>371384</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold2Low" value="15">
+      <id>371383</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold1High" value="6">
+      <id>371382</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold1Medium" value="9">
+      <id>371380</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAMsgThreshold1Low" value="12">
+      <id>371377</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAGradientIncrease" value="0.05">
+      <id>371375</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAGradientDecreaseAcoustic" value="0.1">
+      <id>371374</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAGradientDecrease" value="0.05">
+      <id>371371</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFacWeightingHoldTimeAcoustic" value="1">
+      <id>371370</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFacWeightingAcoustic" value="1">
+      <id>371369</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptFacWeightingHoldTimeInfotainment" value="1">
+      <id>371368</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFacWeightingHoldTimeInfotainment" value="1">
+      <id>371367</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFacWeightingInfotainment" value="1">
+      <id>371366</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFacWeightingUserInteraction" value="1">
+      <id>371361</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAActivityThresholdSpeedUpper" value="200">
+      <id>371360</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAActivityThresholdSpeedUpper" value="200">
+      <id>371358</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAActivityThresholdSpeedLower" value="20">
+      <id>371357</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSteeringMinimumEvalTime" value="600">
+      <id>371355</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetWeightedEventRateNormFactor" value="500">
+      <id>371354</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeAcousticVoiceControl" value="20">
+      <id>371352</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeAcousticPhone" value="20">
+      <id>371351</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialAcousticVoiceControl" value="1">
+      <id>371350</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialAcousticPhone" value="1">
+      <id>371348</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdDrivingBehaviorFraction" value="2">
+      <id>371347</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdDrivingBehaviorHistory" value="2">
+      <id>371346</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdDrivingBehavior" value="2">
+      <id>371345</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADrivingBehaviorPeriod" value="1200">
+      <id>371342</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold3High" value="8">
+      <id>371341</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold3Medium" value="8.5">
+      <id>371340</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold3Low" value="9">
+      <id>371339</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold2High" value="7">
+      <id>371338</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold2Medium" value="7.5">
+      <id>371336</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold2Low" value="8">
+      <id>371335</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold1High" value="6">
+      <id>371334</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold1Medium" value="6.5">
+      <id>371332</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThreshold1Low" value="7">
+      <id>371331</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgPause" value="0">
+      <id>371330</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgDelay" value="0">
+      <id>371329</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThresholdSpeedInactive" value="65">
+      <id>371328</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgThresholdSpeed" value="70">
+      <id>371327</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAClassifierOffsetAwake" value="-0.5">
+      <id>371326</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAClassifierOffsetTired" value="0.5">
+      <id>371325</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacELADriverClassification" value="10">
+      <id>371324</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAToTAIScalingMax" value="6.5">
+      <id>371323</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAToTAIScalingMin" value="4">
+      <id>371322</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSignalValidDuration" value="5">
+      <id>371321</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacCountersteeringMoment" value="20">
+      <id>371319</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdSpeedELASteeringDetection" value="60">
+      <id>371318</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialInfotainmentLevel3" value="3">
+      <id>371317</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialInfotainmentLevel2" value="2">
+      <id>371316</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialInfotainmentLevel1" value="1">
+      <id>371315</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeInfotainment" value="20">
+      <id>371314</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeInfotainment" value="30">
+      <id>371313</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPassengerPresenceEval" value="1">
+      <id>371312</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacTimeOnTaskELADC" value="30">
+      <id>371311</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacDaylightELA" value="5">
+      <id>371310</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSignalInitDuration" value="5">
+      <id>371308</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSignalOutOfRangeDuration" value="5">
+      <id>371307</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSignalNeverReceivedDuration" value="5">
+      <id>371306</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELASmootingParameterEMA" value="0.05">
+      <id>371305</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTLCPreDebounceTicks" value="1200">
+      <id>371303</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetMaxWeightedRateSteeringEvent" value="0.8">
+      <id>371299</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacMonotonyELA" value="30">
+      <id>371298</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacDriverActivityELA" value="15">
+      <id>371297</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjELAFASAdaptOnOff" value="0">
+      <id>371293</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAFASAdaptFactorySettings" value="0">
+      <id>371269</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAFASAdaptOnDriverChange" value="0">
+      <id>371268</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAFASAdaptKL15On" value="0">
+      <id>371267</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAFASAdaptDisplay" value="0">
+      <id>371266</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjEKAFASAdaptOnOff" value="0">
+      <id>371265</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptFactorySettings" value="0">
+      <id>371264</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAFASAdaptOnDriverChange" value="0">
+      <id>371263</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAFASAdaptKL15On" value="0">
+      <id>371262</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAFASAdaptDisplay" value="0">
+      <id>371261</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjEKASensitivity" value="1">
+      <id>371259</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKASensitivityFactorySettings" value="1">
+      <id>371258</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKASensitivityOnDriverChange" value="0">
+      <id>371256</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigSensitivityEKAKL15On" value="0">
+      <id>371255</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigSensitivityEKADisplay" value="0">
+      <id>371254</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjELASensitivity" value="1">
+      <id>371253</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELASensitivityFactorySettings" value="1">
+      <id>371252</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELASensitivityOnDriverChange" value="0">
+      <id>371249</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigSensitivityELAKL15On" value="0">
+      <id>371248</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigSensitivityELADisplay" value="0">
+      <id>371241</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAAcousticNotifFactorySettings" value="0">
+      <id>371240</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjELAAcousticNotifOnOff" value="0">
+      <id>371238</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAAcousticNotifOnDriverChange" value="0">
+      <id>371236</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAAcousticNotifKL15On" value="0">
+      <id>371234</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigELAAcousticNotifDisplay" value="0">
+      <id>371233</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAAcousticNotifFactorySettings" value="0">
+      <id>371232</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjEKAAcousticNotifOnOff" value="0">
+      <id>371231</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAAcousticNotifOnDriverChange" value="0">
+      <id>371230</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAAcousticNotifKL15On" value="0">
+      <id>371229</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigEKAAcousticNotifDisplay" value="0">
+      <id>371225</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode23" value="-0.06">
+      <id>315901</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode22" value="0.04">
+      <id>315900</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode21" value="0.13">
+      <id>315899</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode20" value="0.15">
+      <id>315898</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode19" value="0.15">
+      <id>315897</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode18" value="0.13">
+      <id>315896</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode17" value="0.08">
+      <id>315895</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode16" value="0.03">
+      <id>315894</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode15" value="0">
+      <id>315893</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode14" value="0.01">
+      <id>315892</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode13" value="0.05">
+      <id>315891</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode12" value="0.1">
+      <id>315890</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode11" value="0.15">
+      <id>315889</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode10" value="0.21">
+      <id>315888</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode09" value="0.25">
+      <id>315887</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode08" value="0.27">
+      <id>315886</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode07" value="0.2">
+      <id>315885</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode06" value="0">
+      <id>315884</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode05" value="-0.19">
+      <id>315883</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode04" value="-0.37">
+      <id>315882</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode03" value="-0.5">
+      <id>315881</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode02" value="-0.48">
+      <id>315880</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode01" value="-0.35">
+      <id>315879</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetCircadianRhythmNode00" value="-0.2">
+      <id>315878</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDayligthMaxDecrease" value="400">
+      <id>315436</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMsgFactorySettings" value="0">
+      <id>313760</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigMsgELADisplay" value="0">
+      <id>313759</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigMsgKL15OnELA" value="0">
+      <id>313758</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigMsgOnDriverChangeELA" value="0">
+      <id>313757</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigFASAdaptEKAMsgOnOff" value="0">
+      <id>313755</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFktConfigFASAdaptELAMsgOnOff" value="0">
+      <id>313754</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjELAMsgOnOff" value="0">
+      <id>313752</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAdjEKAMsgOnOff" value="0">
+      <id>313750</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMaxValueToT" value="18000">
+      <id>313749</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacUSSDMLevel" value="0.05">
+      <id>313748</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdUSSDMQual" value="70">
+      <id>313747</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAAttentionIndicatorScalingMin" value="0">
+      <id>313746</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAAttentionIndicatorScalingMax" value="9.9">
+      <id>313745</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADrivingContextScalingMin" value="0.8">
+      <id>313744</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELADrivingContextScalingMax" value="1.2">
+      <id>313743</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacCircadianRhythmELA" value="10">
+      <id>313742</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdBrakePedalPathHeavyBraking" value="50">
+      <id>313741</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAccPedalGradientStrongAcc" value="250">
+      <id>313740</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdBrakePedalPathLightBraking" value="20">
+      <id>313739</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialLightAcceleration" value="-1">
+      <id>313738</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMaxDrivingContextBrightnes" value="1000">
+      <id>313737</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMaxDrivingContextCircadian" value="2">
+      <id>313736</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAMaxDrivingContextToT" value="18000">
+      <id>313735</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacTimeOnTaskELAAI" value="0.4">
+      <id>313733</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeFactorActiveUserInteraction" value="1">
+      <id>313731</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFactorMMIUserInteraction" value="4">
+      <id>313730</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFactorActiveUserInteraction" value="4">
+      <id>313729</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptGradientDistraction" value="0.01">
+      <id>313728</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptGradientAttention" value="0.03">
+      <id>313727</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptMin" value="-12">
+      <id>313726</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAFASAdaptMax" value="12">
+      <id>313725</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialLightBraking" value="-1">
+      <id>313723</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAccPedalGradientLightAcc" value="100">
+      <id>313722</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdAccPedal" value="30">
+      <id>313721</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeHeavyBraking" value="20">
+      <id>313720</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeLightBraking" value="20">
+      <id>313719</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeLightAcceleration" value="20">
+      <id>313718</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOperatingSeatAdjustment" value="20">
+      <id>313717</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOperatingWiperLever" value="20">
+      <id>313716</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOperatingFASButtons" value="20">
+      <id>313715</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeStrongSteeringMovements" value="20">
+      <id>313714</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOperatingExteriorMirror" value="20">
+      <id>313713</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOperatingHighBeam" value="20">
+      <id>313712</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeFlashing" value="20">
+      <id>313711</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeAdjustmentVolume" value="20">
+      <id>313710</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOperationMenu" value="20">
+      <id>313709</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeOverrideLongitudinalControl" value="20">
+      <id>313708</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetHoldTimeStrongAcceleration" value="20">
+      <id>313707</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeHeavyBraking" value="40">
+      <id>313706</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeLightBraking" value="60">
+      <id>313705</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeLightAcceleration" value="60">
+      <id>313704</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOperatingSeatAdjustment" value="50">
+      <id>313703</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOperatingWiperLever" value="20">
+      <id>313702</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOperatingFASButtons" value="40">
+      <id>313701</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeStrongSteeringMovements" value="50">
+      <id>313700</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOperatingExteriorMirror" value="30">
+      <id>313699</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOperatingHighBeam" value="30">
+      <id>313698</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeFlashing" value="20">
+      <id>313697</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeAdjustmentVolume" value="40">
+      <id>313696</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOperationMenu" value="40">
+      <id>313695</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeOverrideLongitudinalControl" value="50">
+      <id>313694</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDeadTimeStrongAcceleration" value="40">
+      <id>313693</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEnvironmentBrightnessEMADecay" value="0.5">
+      <id>313692</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDaylightBrightnessDefault" value="20000">
+      <id>313691</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDayligthMaxIncrease" value="40000">
+      <id>313690</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOperatingSeatAdjustment" value="3">
+      <id>313689</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOperatingWiperLever" value="-1">
+      <id>313688</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOperatingFASButtons" value="1">
+      <id>313687</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialStrongSteeringMovements" value="-3">
+      <id>313686</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdSteeringAngleSpeed" value="300">
+      <id>313685</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetEKAThresholdSteeringMoment" value="4">
+      <id>313684</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdSharpRightTurn" value="70">
+      <id>313683</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdSharpLeftTurn" value="-70">
+      <id>313682</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDTLResetTicks" value="2000">
+      <id>313681</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDTLRecDebounceTicks" value="1000">
+      <id>313680</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDTLPreDebounceTicks" value="1200">
+      <id>313679</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDTLMinSpeed" value="90">
+      <id>313678</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTLCMinSpeed" value="90">
+      <id>313677</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineMsgWaitingTime" value="30">
+      <id>228224</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineMsgLevelRuntime" value="30">
+      <id>228223</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSignalErrorDuration" value="5">
+      <id>228214</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSignalTimeoutDuration" value="5">
+      <id>228213</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELALaneDistanceModifactionParameter" value="0.15">
+      <id>228209</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetELAThresholdLaneTimeCrossing" value="0.5">
+      <id>228207</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOperatingExteriorMirror" value="3">
+      <id>228206</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOperatingHighBeam" value="-2">
+      <id>228205</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialFlashing" value="-1">
+      <id>228204</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialHeavyBraking" value="-3">
+      <id>228203</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialAdjustmentVolume" value="1">
+      <id>228197</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOperationMenu" value="2">
+      <id>228196</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialOverrideLongitudinalControl" value="-2">
+      <id>228195</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetPotentialStrongAcceleration" value="-3">
+      <id>228194</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacWeightingTlcILAIndex" value="1">
+      <id>228191</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdTlcCntIncludeInELA" value="900">
+      <id>228190</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTimeWindowTlcCntInTicks" value="3600">
+      <id>228189</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacWeightingDtlILAIndex" value="0.1">
+      <id>228188</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTimeWindowDtlInTicks" value="200">
+      <id>228187</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetMaxDtl" value="1.5">
+      <id>228186</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacWeightingSteeringILAIndex" value="0.4">
+      <id>228181</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineBreakNotifMsg" value="0">
+      <id>228148</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineELAStatusDisplayError" value="0">
+      <id>228147</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineELAStatusDisplayOff" value="0">
+      <id>228146</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineELAMsg3" value="0">
+      <id>228142</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineELAMsg2" value="0">
+      <id>228141</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineELAMsg1" value="0">
+      <id>228140</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineELACascadeMsg" value="0">
+      <id>228139</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineEKAStatusDisplayError" value="0">
+      <id>228138</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineEKAStatusDisplayOff" value="0">
+      <id>228137</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineEKAMsg3" value="0">
+      <id>228133</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineEKAMsg2" value="0">
+      <id>228132</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineEKAMsg1" value="0">
+      <id>228131</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDiagRoutineEKACascadeMsg" value="0">
+      <id>228130</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetYawRateEMATime" value="0.1">
+      <id>163017</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetYawRateEMADecay" value="1">
+      <id>163016</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetVehicleSpeedEMATime" value="0.1">
+      <id>163015</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetVehicleSpeedEMADecay" value="0.002">
+      <id>163014</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTimVehPowStatOffInSec" value="120">
+      <id>163013</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTimeSteeringInactivityPeriodQualMs" value="1000">
+      <id>163011</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetTimeAttentionCheckMs" value="300">
+      <id>163008</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdSteeringInactivityPeriod" value="0.3">
+      <id>163003</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetThresholdDriverChangeVehicleSpeed" value="25">
+      <id>163001</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSteeringMomentEMATime" value="0.1">
+      <id>162997</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSteeringMomentEMADecay" value="0.005">
+      <id>162996</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSteeringAngleSpeedEMATime" value="0.1">
+      <id>162995</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSteeringAngleSpeedEMADecay" value="0.005">
+      <id>162994</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSteeringAngleEMATime" value="0.1">
+      <id>162993</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetSteeringAngleEMADecay" value="0.005">
+      <id>162992</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetMonoDriverInitTime" value="300">
+      <id>162991</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetMaxELAIndex" value="9.9">
+      <id>162990</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacYawRateMAD" value="1">
+      <id>162986</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacVehicleSpeedMAD" value="0.05">
+      <id>162985</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacSteeringMomentMAD" value="1">
+      <id>162984</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacSteeringAngleSpeedMAD" value="1">
+      <id>162983</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacSteeringAngleMAD" value="1">
+      <id>162982</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacDriverBrakingMAD" value="1">
+      <id>162980</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacAccPedalMAD" value="1">
+      <id>162978</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacAccPedalGradientMAD" value="1">
+      <id>162977</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacAccLongitudinalMAD" value="1">
+      <id>162976</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetFacAccLateralMAD" value="1">
+      <id>162975</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDriverBrakingEMATime" value="0.1">
+      <id>162974</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDriverBrakingEMADecay" value="0.5">
+      <id>162973</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDriverActivityInitTimeInSec" value="300">
+      <id>162972</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetDecayELAIndex" value="0.0005">
+      <id>162970</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetActDrThrSpeedInKmh" value="5">
+      <id>162966</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetActDrBreakTimInSec" value="1200">
+      <id>162965</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccPedalGradientEMATime" value="0.1">
+      <id>162962</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccPedalGradientEMADecay" value="0.05">
+      <id>162961</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccPedalEMATime" value="0.1">
+      <id>162960</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccPedalEMADecay" value="0.05">
+      <id>162959</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccLongitudinalEMATime" value="0.1">
+      <id>162958</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccLongitudinalEMADecay" value="0.05">
+      <id>162957</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccLateralEMATime" value="0.1">
+      <id>162896</id>
+    </ConfigVariable>
+    <ConfigVariable name="AdaAlgo_GetAccLateralEMADecay" value="0.05">
+      <id>161784</id>
+    </ConfigVariable>
+  </ConfigVariables>
+</OnlineSimulationConfigs>
